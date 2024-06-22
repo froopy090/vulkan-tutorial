@@ -2,7 +2,6 @@
 
 #include "window.hpp"
 
-namespace window {
 class FirstApp {
 public:
   void run();
@@ -13,4 +12,3 @@ public:
 private:
   VulkanWindow appWindow{WIDTH, HEIGHT, "appwindow"};
 };
-} // namespace windowulkanWindo

@@ -6,7 +6,7 @@
 #include <ostream>
 
 int main() {
-  window::FirstApp app{};
+  FirstApp app{};
 
   try {
     app.run();
